@@ -1,0 +1,97 @@
+body {
+    background-color: #f1f1f4;
+  }
+  
+  h3 {
+    margin-bottom: 2%;
+  }
+  
+  ol {
+    list-style-position: inside;
+  }
+  
+  li {
+    font-size: 1.8em;
+  }
+  
+  .row {
+    justify-content: center;
+    margin: auto 5%;
+  }
+  
+  
+  input[type=month] {
+    text-align: center;
+    margin: auto;
+    font-size: 1.5em;
+  }
+  
+  .calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin-bottom: 2%;
+    border-color: rgba(156, 10, 17, 0.8);
+    border-radius: 4px;
+  }
+  
+  div .today {
+    margin-bottom: 5%;
+  }
+  
+  div.container {
+    margin-bottom: 5%;
+    border-radius: 3px;
+  }
+  
+  label {
+    margin: 2%;
+    font-size: 1.4em;
+  }
+  
+  option, input[type=text], input[type=date] {
+    font-size: 1.2em;
+  }
+  
+  .form-control {
+    display: inline-block;
+    width: auto;
+  }
+  
+  a {
+    margin-left: 2%;
+    text-align: center;
+  }
+  
+  .fa-exclamation {
+    color: rgba(95, 170, 212, 0.7);
+  }
+  
+  .fa-times {
+    color: #B3520E;
+    font-size: 0.8em;
+  }
+  
+  .btn {
+    margin-left: 2%;
+    font-size: 1.1em;
+    background-color: rgba(95, 170, 212, 0.7);
+  }
+  
+  .day {
+    height: 100px;
+    border: 1px solid rgba(95, 193, 232, 0.8);
+    border-radius: 4px;
+    font-size: 2em;
+    margin: 2px;
+  }
+  
+  .day:hover {
+    border: 1px solid rgba(95, 193, 232, 0.8);
+    box-shadow: 0.3em 0.3em 0.8em #5fc1e8;
+    margin: 0;
+  }
+  
+  .container {
+    margin: 2% auto;
+    text-align: center;
+  }

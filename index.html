@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calendar with Schedule Task</title>
+  <link rel="stylesheet" href="https://bootswatch.com/4/flatly/bootstrap.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <div class="container today">
+    <h3>Your Tasks For </h3>
+    <ol></ol>
+  </div>
+  <div class="form-group container">
+    <form>
+      <div class="row">
+        <div class="col-lg-4">
+          <label for="taskInput">Task</label><input type="text" class="form-control" placeholder="Type your task" id="taskInput">
+        </div>
+        <div class="col-lg-4">
+          <label for="dateInput">Date</label><input type="date" class="form-control" id="dateInput">
+        </div>
+        <div class="col-lg-4">
+          <button type="button" class="btn btn-primary btn-lg">Add Task</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="container">
+    <input type="month" class="form-control">
+  </div>
+  <div class="calendar"></div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
