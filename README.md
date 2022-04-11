@@ -1,2 +1,2 @@
-# calendar_with_scheduke_task
+# calendar_with_schedule_task
 I developed this calendar website using HTML, CSS and JAVASCRIPT.
